@@ -22,3 +22,15 @@ html{
     height: 100vh;
     background: var(--primary-black);
 }
+
+.item-1{
+    border: 3px solid var(--primary-red);
+    grid-row: 3 / 10;
+    grid-column: 4 / 7;
+}
+
+.item-2{
+    border: 3px solid var(--primary-red);
+    grid-row: 7 / 11;
+    grid-column: 6 / 10;
+}
