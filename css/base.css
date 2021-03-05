@@ -15,22 +15,24 @@
 html{
     font-size: 62.5%;
 }
-
+body{
+    background-image: linear-gradient(to right top, #2f2b2f, #2f2a2e, #2e292c, #2e292b, #2d282a);
+}
 .container{
     display: grid;
     grid-template: repeat(12, 1fr) / repeat(12, 1fr);
     height: 100vh;
-    background: var(--primary-black);
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQYV2NkYGD4z8DAwMgABXAGNgGwSgwVAFbmAgXQdISfAAAAAElFTkSuQmCC) repeat;
 }
 
 .item-1{
     border: 3px solid var(--primary-red);
     grid-row: 3 / 10;
-    grid-column: 4 / 7;
+    grid-column: 5 / 7;
 }
 
 .item-2{
     border: 3px solid var(--primary-red);
     grid-row: 7 / 11;
-    grid-column: 6 / 10;
+    grid-column: 6 / 9;
 }
