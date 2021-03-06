@@ -16,7 +16,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-image: linear-gradient(to right top, #2f2b2f, #2f2a2e, #2e292c, #2e292b, #2d282a);
+    background-image: linear-gradient(to right top, #dd5f5f, #c85759, #b35053, #9f494d, #8b4246);
 }
 .container{
     display: grid;
@@ -26,13 +26,37 @@ body{
 }
 
 .item-1{
-    border: 3px solid var(--primary-red);
-    grid-row: 3 / 10;
+    grid-row: 3 / 9;
     grid-column: 5 / 7;
 }
 
+.item-1 svg{
+    fill: var(--secondary-black);
+    width: 100%;
+}
+
 .item-2{
-    border: 3px solid var(--primary-red);
     grid-row: 7 / 11;
-    grid-column: 6 / 9;
+    grid-column: 7 / 10;
+}
+
+.item-2 svg{
+    position: relative;
+    top: 43px;
+    right: 30px;
+    width: 100%;
+    fill: var(--secondary-black);
+}
+
+.item-3{ 
+    grid-column: 4 / 5;
+    grid-row: 3 / 9; 
+    font-size: 3.8rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    line-height: 4.0rem;
+    writing-mode: vertical-rl;
+    display: flex;
+    align-items: end;
+    color: var(--primary-black);
 }
