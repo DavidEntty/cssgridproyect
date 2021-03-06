@@ -63,8 +63,8 @@ body{
 .item-5{
     grid-column: 7 / 10;
     grid-row: 2 / 8;
-    border-block-start: .5rem solid var(--primary-black);
-    border-inline-end: .5rem solid var(--primary-black);
+    border-block-start: .4rem solid var(--primary-black);
+    border-inline-end: .4rem solid var(--primary-black);
     overflow: hidden;
     display: grid;
     justify-items: end;
